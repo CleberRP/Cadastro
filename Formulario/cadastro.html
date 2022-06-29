@@ -5,60 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Lar Padre</title>
-    <link href='http://fonts.googleapis.com/css?family=OpenSans:300,400,700' rel='stylesheet' type='text/css'>
-    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet"  href="style.css" >
+    <title>Cadastro</title>
 </head>
 <body>
+    <div class ="border">
+    <p>Cadastro de Usuarios da Entidade</p>
+    </div>
+
     <section>
         
         <div class="formulario">  
 
            <form action="" method="post" id="validate">                  
-                   
-               <label>* Nome</label>
+              <div class="input">     
+               <li>* Nome</li>
                <input name="nome" type="text" class="g">
 
-               <label>* E-mail</label>
+               <li>* E-mail</li>
                <input name="email" type="text" class="g">
 
-               <label>Telefone</label>
+               <li>Telefone</li>
                <input name="" type="text" class="p" id="telefone">
 
-               <label>Celular</label>
-               <input name="" type="text" class="p" id="celular">
+               <li>Celular</li>
+               <input namber="" type="text" class="p" id="celular">
 
-               <label>Data de Nascimento</label>
-               <input name="" type="text" class="p" id="data">
+               <li>Data de Nascimento</li>
+               <input name="" type="date" class="p" id="data">
 
-               <label>Data</label>
+               <li>Data do Acolhimento</li>
                <input name="" type="text" class="p" id="datepicker1">
 
-               <label>Sexo</label>
+               <li>Sexo</li>
+              </div>
                <select name="" class="m">
                  <option>Selecione</option>
                  <option>Masculino</option>
                  <option>Feminino</option>
                </select>
 
-               <label>CEP</label>
+               <li>CEP</li>
                <input name="" type="text" class="p" id="cep">
 
-               <label>Endereço</label>
+               <li>Endereço</li>
                <input name="" type="text" class="g">
                
-               <label>Número</label>
+               <li>Número</li>
                <input name="" type="text" class="pp" >
             
-               <label>Complemento</label>
+               <li>Complemento</li>
                <input name="" type="text" class="m">
                
-               <label>Bairro</label>
+               <li>Bairro</li>
                <input name="" type="text" class="p">
                
-               <label>Cidade</label>
+               <li>Cidade</li>
                <input name="" type="text" class="p">
 
-               <label>Estado</label>
+               <li>Estado</li>
                <select name="" class="p">
                    <option>Selecione</option>
                    <option value="AC">Acre</option>
@@ -89,18 +94,14 @@
                    <option value="SE">Sergipe</option>
                    <option value="TO">Tocantins</option>
                </select>
-
-
-              
-               </select>
                
-               <label>Assunto</label>
-               <input name="" type="text" class="g">
-               
-               <label>Relatorio</label>
-               <textarea name="" cols="10" rows="5" class="g"></textarea>
-
-               <input type="submit" value="Enviar">
+               <li>Assunto</li>
+                    <input name="" type="text" class="g">               
+               <li>Relatorio</li>
+                    <textarea name="" cols="10" rows="5" class="g"></textarea>
+               <div class =gb-effect>
+                    <input type="submit" value="Enviar">
+               </div>
 
            </form>
        </div><!--/formulario-->

@@ -5,63 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Lar Padre</title>
-    <link rel="stylesheet"  href="style.css" >
-    <title>Cadastro</title>
+    <link a rel="stylesheet" type="text/css" href="style.css" >
 </head>
 <body>
-    <div class ="border">
-    <p>Cadastro de Usuarios da Entidade</p>
-    </div>
-
-    <section>
-        
-        <div class="formulario">  
-
-           <form action="" method="post" id="validate">                  
-              <div class="input">     
+    <fieldset>
+    <header> 
+        <fieldset>                   
+            <h1 id="titulo"> Cadastro de Usuarios da Entidade</h1>
+            <p id="subtitulo">Entre com as Informações</p>
+        </fieldset>
+        <br>
+    </header>
+      
+            <div class=" campo">   
+            <form >  
+                <fieldset>
                <li>* Nome</li>
-               <input name="nome" type="text" class="g">
-
+               <input type="text" nome="nome" id="nome">
                <li>* E-mail</li>
-               <input name="email" type="text" class="g">
+               <input type="email" nome="email id=email">
 
                <li>Telefone</li>
-               <input name="" type="text" class="p" id="telefone">
+               <input type="text" nome="telefone"  id="telefone">
 
                <li>Celular</li>
-               <input namber="" type="text" class="p" id="celular">
+               <input type="text" nome="celular" id="celular">
 
                <li>Data de Nascimento</li>
-               <input name="" type="date" class="p" id="data">
+               <input type="date" nome="date"  id="data">
 
                <li>Data do Acolhimento</li>
-               <input name="" type="text" class="p" id="datepicker1">
+               <input type="date" nome="data do Acolhimento" id="datepicker1">
 
                <li>Sexo</li>
-              </div>
-               <select name="" class="m">
+               <select id="sexo">
                  <option>Selecione</option>
                  <option>Masculino</option>
                  <option>Feminino</option>
                </select>
 
                <li>CEP</li>
-               <input name="" type="text" class="p" id="cep">
+               <input type="cep" nome="cep" id="cep">
 
                <li>Endereço</li>
-               <input name="" type="text" class="g">
+               <input type="text" nome="endereço" id="endereço">
                
                <li>Número</li>
-               <input name="" type="text" class="pp" >
+               <input type="text" nome="" class="pp" >
             
                <li>Complemento</li>
-               <input name="" type="text" class="m">
+               <input type="text" nome="Complemento" id="Comandos">
                
                <li>Bairro</li>
-               <input name="" type="text" class="p">
+               <input type="text" nome="bairro" id="bairro">
                
                <li>Cidade</li>
-               <input name="" type="text" class="p">
+               <input type="text" nome="cidade" id="cidade">
 
                <li>Estado</li>
                <select name="" class="p">
@@ -96,24 +95,18 @@
                </select>
                
                <li>Assunto</li>
-                    <input name="" type="text" class="g">               
+                    <input type="text" nome="assunto" id="assunto">               
                <li>Relatorio</li>
-                    <textarea name="" cols="10" rows="5" class="g"></textarea>
-               <div class =gb-effect>
-                    <input type="submit" value="Enviar">
-               </div>
-
-           </form>
+                    <textarea name="" cols="10" rows="6" style="width: 26 em;"></textarea>
+                    <button type="submit">Salvar</button>  
+                    </fieldset>
+            </div> 
+                
+            </form>
        </div><!--/formulario-->
                
-   </section>
-
-
-   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-   <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
-   <script type="text/javascript" src="js/jquery.validate.min.js"></script>
-   <script type="text/javascript" src="js/jquery.zebra-datepicker.js"></script>
-
+   
+        </fieldset>
 </body>
 </html>
     

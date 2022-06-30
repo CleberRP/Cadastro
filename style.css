@@ -1,0 +1,55 @@
+
+
+body{
+    margin-left: 10px;
+    background-color: rgb(107, 107, 139);
+}
+#titulo{
+    text-align: center;
+    font: 40px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+    
+#subtitulo {
+    
+    text-align: center;
+    font-size: 30px;
+    background-color:rgb(157, 38, 38);
+    border-top: 0 30 30 0;
+}
+
+
+textarea {
+    background-color:white;
+    font-weight: 100px;
+    padding: 0px 500px 100px 0;
+    font-style:arial;
+    color:black;
+    font-size: 15px;
+}
+body {
+    background-image: <!-- saved from url=(0088)file:///C:/Users/Isaac/OneDrive/Documentos/MeusProjeto/Cadastro/Formulario/cadastro.html -->;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+button{
+    background-color: yellowgreen;
+    font-style: italic;
+    
+}
+.campo {
+    margin-bottom:1em ;
+    font-size: 20px;
+    font-style: italic;
+    border: rgb(107, 107, 139);
+    background-origin: padding-box;
+
+}
+
+
+li{
+    
+}
